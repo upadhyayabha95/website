@@ -133,3 +133,51 @@ body {
   text-decoration: underline;
 }
 
+.page-achievements {
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px 35px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  margin-top: 25px;
+}
+
+.page-achievements h1 {
+  text-align: center;
+  color: #004b8d;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.page-achievements .intro {
+  text-align: center;
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.achievement-list ul {
+  list-style-type: "🏅 ";
+  padding-left: 25px;
+}
+
+.achievement-list li {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+  line-height: 1.7;
+  transition: transform 0.3s ease, background 0.3s ease;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.achievement-list li:hover {
+  background: #eef4fb;
+  transform: scale(1.01);
+}
+
+.main-nav .active {
+  font-weight: bold;
+  color: #004b8d;
+  text-decoration: underline;
+}
+
